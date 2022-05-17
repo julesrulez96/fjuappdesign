@@ -165,3 +165,16 @@ ol[id^='node-input-'] {
   .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
         display: none;
         }
+
+.red-ui-tourGuide-shade {
+    visibility: hidden;
+}
+
+.red-ui-popover-content {
+    visibility: hidden;
+}
+
+.red-ui-popover.red-ui-tourGuide-popover.red-ui-tourGuide-popover-full.red-ui-popover-inset {
+    visibility: hidden;
+}
+
