@@ -52,7 +52,7 @@
 	height:20px;
 }
 
-
+/*
 .red-ui-tabs-scroll-container{
 	visibility: hidden;
 }
@@ -62,6 +62,7 @@
 .red-ui-tabs-search{
 	visibility: hidden;
 }
+*/
 .red-ui-treeList-container{
 	visibility: visible;
 }
@@ -78,7 +79,7 @@
 .red-ui-editableList-list{
 	visibility: visible;
 }
-
+/*
 .red-ui-tab-link-button-menu{
 	visibility: hidden;
 }
@@ -97,22 +98,23 @@
 .red-ui-editableList-list{
 	visibility: hidden;
 }
+*/
 .red-ui-sidebar-help-toc .red-ui-editableList-list{
 	visibility: visible;
 }
-
+/*
 #red-ui-tab-config-link-button{
 	visibility: hidden;
 }
-
+*/
 .red-ui-panel{
 	height: 0px;
 }
-
+/*
 .red-ui-menu-dropdown-submenu.pull-left{
 	visibility: hidden;
 }
-
+*/
 ol[id^='node-input-'] {
 	visibility: visible;
 }
