@@ -1,156 +1,167 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 #red-ui-header{
-	background: #5e4893;
-	color: #fff;
-	height: 64px;
-	padding-left: 16px;
-	padding-right: 16px;
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
+        background: #5e4893;
+        color: #fff;
+        height: 64px;
+        padding-left: 16px;
+        padding-right: 16px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
 }
 
 #red-ui-main-container{
-	top:64px;
+        top:64px;
 }
 .red-ui-header-logo{
-	font: 500 20px / 32px Roboto!important;
-	letter-spacing: 0.0075em;
-	height: 40px;
+        font: 500 20px / 32px Roboto!important;
+        letter-spacing: 0.0075em;
+        height: 40px;
 }
 .red-ui-header-logo > a{
-	height: 40px;
+        height: 40px;
 }
 #red-ui-header > .red-ui-header-logo > a > img{
-	height: 40px;
-	width: 40px;
+        height: 40px;
+        width: 40px;
 }
 
 #red-ui-header > .red-ui-header-logo > a > span{
-	font-size: 20px !important;
+        font-size: 20px !important;
 }
 #red-ui-header .button{
-	border-left: none!important;
+        border-left: none!important;
     border-right: none!important;
 }
 
 
 #red-ui-header-button-sidemenu{
-	color: #fff;
+        color: #fff;
     border-left: none;
     border-left: none;
 }
 
 .button{
-	color: #fff;
+        color: #fff;
     border-left: none;
     border-left: none;
 }
 
 #red-ui-header-button-deploy-icon{
-	height:20px;
+        height:20px;
 }
 
 /*
 .red-ui-tabs-scroll-container{
-	visibility: hidden;
+        visibility: hidden;
 }
 .red-ui-tabs-add{
-	visibility: hidden;
+        visibility: hidden;
 }
 .red-ui-tabs-search{
-	visibility: hidden;
+        visibility: hidden;
 }
-*/
 .red-ui-treeList-container{
-	visibility: visible;
+        visibility: visible;
 }
 
 .red-ui-sidebar-header{
-	visibility: visible;
+        visibility: visible;
 }
 
+*/
 #red-ui-header #red-ui-header-button-deploy.disabled{
-	background: #5e4893;
-	color: #fff;
-}
-
-.red-ui-editableList-list{
-	visibility: visible;
+        background: #5e4893;
+        color: #fff;
 }
 /*
+.red-ui-editableList-list{
+        visibility: visible;
+}
+
 .red-ui-tab-link-button-menu{
-	visibility: hidden;
+        visibility: hidden;
 }
 
 .red-ui-searchBox-form{
-	visibility: hidden;
+        visibility: hidden;
 }
 
 .fa-search{
-	visibility: hidden;
+        visibility: hidden;
 }
 
 .red-ui-searchBox-opts{
-	visibility: hidden;
+        visibility: hidden;
 }
 .red-ui-editableList-list{
-	visibility: hidden;
+        visibility: hidden;
 }
-*/
 .red-ui-sidebar-help-toc .red-ui-editableList-list{
-	visibility: visible;
+        visibility: visible;
 }
-/*
+
 #red-ui-tab-config-link-button{
-	visibility: hidden;
+        visibility: hidden;
 }
-*/
+
 .red-ui-panel{
-	height: 0px;
+        height: 0px;
 }
-/*
+
 .red-ui-menu-dropdown-submenu.pull-left{
-	visibility: hidden;
+        visibility: hidden;
 }
-*/
+
 ol[id^='node-input-'] {
-	visibility: visible;
+        visibility: visible;
 }
 
 #red-ui-header-button-sidemenu > .fa.fa-bars{
-	color: #fff;
+        color: #fff;
 }
 
 #red-ui-header-button-deploy.red-ui-deploy-button{
-	color: #fff;
-	opacity: 100%;
+        color: #fff;
+        opacity: 100%;
 }
 #red-ui-header-button-deploy.red-ui-deploy-button.disabled{
-	color: #999;
-	opacity: 50%;
+        color: #999;
+        opacity: 50%;
 }
-
+*/
 #red-ui-header-button-deploy{
-	height: 32px;
+        height: 32px;
 }
 
 #red-ui-header-button-deploy-icon{
-	height: 30px;
-	width: 30px;
+        height: 30px;
+        width: 30px;
 }
-
+*/
 .red-ui-deploy-button-content{
-	font: 500 14px / 32px Roboto!important;
-	letter-spacing: 0.0075em;
-	height: 40px;
+        font: 500 14px / 32px Roboto!important;
+        letter-spacing: 0.0075em;
+        height: 40px;
 }
-
+/*
 #red-ui-tab-red-ui-settings-tab-keyboard{
-	visibility: hidden;
+        visibility: hidden;
 }
 
 .red-ui-menu-dropdown-submenu.pull-left{
-	visibility: hidden;
+        visibility: hidden;
 }
+*/
+#node-dialog-login-image[src*="red/images/node-red-256.svg"] {
+        background-image: url("/theme/header/Logo1.svg");
+        width: 256px;
+        height: 0px !important;
+        height /**/: 256px;
+        padding: 256px 0 0 0;
+  }
+
+  .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
+        display: none;
+        }
