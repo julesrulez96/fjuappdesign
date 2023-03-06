@@ -161,11 +161,11 @@ ol[id^='node-input-'] {
         height /**/: 256px;
         padding: 256px 0 0 0;
   }
-
+/*
   .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
         display: none;
         }
-
+*/
 .red-ui-tourGuide-shade {
     visibility: hidden;
 }
