@@ -170,10 +170,11 @@ ol[id^='node-input-'] {
     visibility: hidden;
 }
 
+/*
 .red-ui-popover-content {
     visibility: hidden;
 }
-
+*/
 .red-ui-tourGuide-popover.red-ui-tourGuide-popover-full {
     visibility: hidden;
 }
